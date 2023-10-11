@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+  text-align: center;
+  background-color: #000000;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: rgb(255, 255, 27);
+}
+
+#math-container {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #FEF2BF;
+  border: 2px solid #011F3F;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center; /* Center align the contents */
+}
+
+#math-problem {
+  margin-bottom: 10px; /* Add some space between the question and the input */
+}
+
+#math-answer {
+  width: 150px;
+  margin-right: 10px; /* Move the input box away from the button */
+}
+
+#check-answer {
+  padding: 5px 10px;
+  background-color: #011F3F;
+  color: #FEF2BF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
